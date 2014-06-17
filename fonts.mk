@@ -63,6 +63,38 @@ PRODUCT_COPY_FILES += \
     external/moztt/Roboto-20120823/Roboto-Regular.ttf:system/fonts/Roboto-Regular.ttf \
     $(NULL)
 
+# STIX fonts for support MathML
+PRODUCT_COPY_FILES += \
+		      external/moztt/STIX-1.1.1/STIXGeneral-BoldItalic.woff:system/fonts/STIXGeneral-BoldItalic.woff \
+		      external/moztt/STIX-1.1.1/STIXGeneral-Bold.woff:system/fonts/STIXGeneral-Bold.woff \
+		      external/moztt/STIX-1.1.1/STIXGeneral-Italic.woff:system/fonts/STIXGeneral-Italic.woff \
+		      external/moztt/STIX-1.1.1/STIXGeneral-Regular.woff:system/fonts/STIXGeneral-Regular.woff \
+		      external/moztt/STIX-1.1.1/STIXIntegralsD-Bold.woff:system/fonts/STIXIntegralsD-Bold.woff \
+		      external/moztt/STIX-1.1.1/STIXIntegralsD-Regular.woff:system/fonts/STIXIntegralsD-Regular.woff \
+		      external/moztt/STIX-1.1.1/STIXIntegralsSm-Bold.woff:system/fonts/STIXIntegralsSm-Bold.woff \
+		      external/moztt/STIX-1.1.1/STIXIntegralsSm-Regular.woff:system/fonts/STIXIntegralsSm-Regular.woff \
+		      external/moztt/STIX-1.1.1/STIXIntegralsUp-Bold.woff:system/fonts/STIXIntegralsUp-Bold.woff \
+		      external/moztt/STIX-1.1.1/STIXIntegralsUpD-Bold.woff:system/fonts/STIXIntegralsUpD-Bold.woff \
+		      external/moztt/STIX-1.1.1/STIXIntegralsUpD-Regular.woff:system/fonts/STIXIntegralsUpD-Regular.woff \
+		      external/moztt/STIX-1.1.1/STIXIntegralsUp-Regular.woff:system/fonts/STIXIntegralsUp-Regular.woff \
+		      external/moztt/STIX-1.1.1/STIXIntegralsUpSm-Bold.woff:system/fonts/STIXIntegralsUpSm-Bold.woff \
+		      external/moztt/STIX-1.1.1/STIXIntegralsUpSm-Regular.woff:system/fonts/STIXIntegralsUpSm-Regular.woff \
+		      external/moztt/STIX-1.1.1/STIXNonUnicode-BoldItalic.woff:system/fonts/STIXNonUnicode-BoldItalic.woff \
+		      external/moztt/STIX-1.1.1/STIXNonUnicode-Bold.woff:system/fonts/STIXNonUnicode-Bold.woff \
+		      external/moztt/STIX-1.1.1/STIXNonUnicode-Italic.woff:system/fonts/STIXNonUnicode-Italic.woff \
+		      external/moztt/STIX-1.1.1/STIXNonUnicode-Regular.woff:system/fonts/STIXNonUnicode-Regular.woff \
+		      external/moztt/STIX-1.1.1/STIXSizeFiveSym-Regular.woff:system/fonts/STIXSizeFiveSym-Regular.woff \
+		      external/moztt/STIX-1.1.1/STIXSizeFourSym-Bold.woff:system/fonts/STIXSizeFourSym-Bold.woff \
+		      external/moztt/STIX-1.1.1/STIXSizeFourSym-Regular.woff:system/fonts/STIXSizeFourSym-Regular.woff \
+		      external/moztt/STIX-1.1.1/STIXSizeOneSym-Bold.woff:system/fonts/STIXSizeOneSym-Bold.woff \
+		      external/moztt/STIX-1.1.1/STIXSizeOneSym-Regular.woff:system/fonts/STIXSizeOneSym-Regular.woff \
+		      external/moztt/STIX-1.1.1/STIXSizeThreeSym-Bold.woff:system/fonts/STIXSizeThreeSym-Bold.woff \
+		      external/moztt/STIX-1.1.1/STIXSizeThreeSym-Regular.woff:system/fonts/STIXSizeThreeSym-Regular.woff \
+		      external/moztt/STIX-1.1.1/STIXSizeTwoSym-Bold.woff:system/fonts/STIXSizeTwoSym-Bold.woff \
+		      external/moztt/STIX-1.1.1/STIXSizeTwoSym-Regular.woff:system/fonts/STIXSizeTwoSym-Regular.woff \
+		      external/moztt/STIX-1.1.1/STIXVariants-Bold.woff:system/fonts/STIXVariants-Bold.woff \
+		      external/moztt/STIX-1.1.1/STIXVariants-Regular.woff:system/fonts/STIXVariants-Regular.woff \
+
 # MozTT fonts that we ship in .woff form when ROM size is at a premium.
 PRODUCT_COPY_FILES += \
     external/moztt/CharisSILCompact-4.114/CharisSILCompact-B$(TTF_EXT):system/fonts/CharisSILCompact-B$(TTF_EXT) \
@@ -87,6 +119,7 @@ PRODUCT_COPY_FILES += \
     external/moztt/Noto/NotoSansTamil-Regular$(TTF_EXT):system/fonts/NotoSansTamil-Regular$(TTF_EXT) \
     external/moztt/Padauk-2.80/Padauk$(TTF_EXT):system/fonts/Padauk$(TTF_EXT) \
     external/moztt/Padauk-2.80/Padauk-bold$(TTF_EXT):system/fonts/Padauk-bold$(TTF_EXT) \
+
     $(NULL)
 
 # Replaced by Meera font
